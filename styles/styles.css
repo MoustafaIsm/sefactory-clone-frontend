@@ -55,3 +55,33 @@ body{
     padding: 1% 2% 1% 2%;
     border-radius: 5px;
 }
+
+.intro_container {
+    position: absolute;
+    bottom: 300px;
+    margin: 2%;
+    margin-left: 5%;
+    width: 95%;
+    color: white;
+}
+
+.xxxlarge_text_container {
+    font-size: 500%;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.xxlarge_text_container {
+    font-size: 300%;
+    font-weight: 500;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.xlarge_text_container {
+    font-size: 200%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 50%;
+}
