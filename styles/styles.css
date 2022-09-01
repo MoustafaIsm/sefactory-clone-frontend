@@ -7,9 +7,9 @@ body{
 }
 
 .background_image_container {
-    -webkit-filter: blur(1px) brightness(0.5);
-  -moz-filter: blur(1px) brightness(0.5);
-  -ms-filter: blur(1px) brightness(0.5);
-  -o-filter: blur(1px) brightness(0.5);
-  filter: blur(1px) brightness(0.5);
+    
+}
+
+.background_image {
+    filter: brightness(50%);
 }
