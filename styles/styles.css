@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    font-family: Roboto;
 }
 
 .section_1_container {
@@ -16,7 +17,7 @@ body{
 
 .header_container {
     position: absolute;
-    bottom: 900px;
+    bottom: 880px;
     margin: 2%;
     width: 95%;
     display: flex;
@@ -37,6 +38,7 @@ body{
     margin-right: 1%;
     margin-bottom: 3%;
     padding-bottom: 1%;
+
 }
 
 .nav_bar_item_container a {
@@ -46,4 +48,10 @@ body{
 
 .nav_bar_active_item_container {
     border-bottom: 1px solid white;
+}
+
+.nav_bar_apply_now_container {
+    background-color: rgb(5, 206, 5);
+    padding: 1% 2% 1% 2%;
+    border-radius: 5px;
 }
