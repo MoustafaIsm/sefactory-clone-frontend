@@ -3,7 +3,7 @@ body{
 }
 
 .section_1_container {
-
+    position: relative;
 }
 
 .background_image_container {
@@ -12,4 +12,38 @@ body{
 
 .background_image {
     filter: brightness(50%);
+}
+
+.header_container {
+    position: absolute;
+    bottom: 900px;
+    margin: 2%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav_bar_item_container {
+    font-size: large;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+}
+
+.nav_bar_item_container a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar_active_item_container {
+    border-bottom: 1px solid white;
 }
