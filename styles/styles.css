@@ -176,3 +176,33 @@ body{
     width: 70%;
     font-size: 150%;
 }
+
+.programs_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(5, 206, 5);
+    padding: 5%;
+}
+
+.programs_title_container {
+    text-align: center;
+    font-weight: initial;
+    font-size: 320%;
+    color: white;
+}
+
+.programs_info_container {
+    display: flex;
+    justify-content: center;
+    padding: initial 2% 2% 2%;
+}
+
+.fsw_container img {
+    float: right;
+    margin-right: 1%;
+}
+
+.fcs_container {
+
+}
