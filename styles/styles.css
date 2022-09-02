@@ -161,3 +161,32 @@ body{
 .discription_container {
     text-align: center;
 }
+
+.section_3_container {
+    display: flex;
+    justify-content: center;
+}
+
+.img_container {
+    width: 40%;
+    height: 40%;
+    display: flex;
+}
+
+.general_info_container {
+    width: 40%;
+    height: 40%;
+    padding-left: 7%;
+}
+
+.general_info_container h1 {
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+.goal_container {
+    font-weight: lighter;
+    padding: 5%;
+    width: 70%;
+    font-size: 150%;
+}
