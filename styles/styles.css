@@ -317,12 +317,19 @@ body{
 
 .actually_the_footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: black;
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: large;
+}
+
+.privacy_policy_container {
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .privacy_policy_container a {
@@ -331,4 +338,20 @@ body{
 
 .copyright_container p {
     color: white;
+}
+
+.socials_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.socials_container a {
+    text-decoration: none;
+    color: white;
+}
+
+.social_item {
+    margin-right: 40%;
 }
