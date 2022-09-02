@@ -126,3 +126,38 @@ body{
     font-weight: 600;
     font-size: large;
 }
+
+.section_2_container {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 200%;
+    font-weight: 700;
+    width: 15%;
+    padding: 5%;
+}
+
+.center_stat_container {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.large_stat_container {
+    width: 20%;
+}
+
+.number_container {
+    color: rgb(5, 206, 5);
+    font-size: 220%;
+}
+
+.discription_container {
+    text-align: center;
+}
